@@ -5,7 +5,7 @@ import Main from "../components/Home/Main";
 
 // import { Container } from './styles';
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -13,6 +13,6 @@ function Home() {
       <Main />
     </>
   );
-}
+};
 
 export default Home;

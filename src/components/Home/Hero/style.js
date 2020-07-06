@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import backgroundImage from "../../../assets/herohome.jpeg";
-const Heroo = styled.section`
+
+const StyledHero = styled.section`
   position: relative;
   width: 100%;
   height: 601px;
@@ -67,4 +68,4 @@ const Heroo = styled.section`
   }
 `;
 
-export default Heroo;
+export default StyledHero;

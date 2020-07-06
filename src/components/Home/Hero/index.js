@@ -1,9 +1,9 @@
 import React from "react";
-import Heroo from "./style";
+import StyledHero from "./style";
 
-function Hero() {
+const Hero = () => {
   return (
-    <Heroo>
+    <StyledHero>
       <div className="container">
         <h1>Aprenda a ser criativo</h1>
         <p>
@@ -15,8 +15,8 @@ function Hero() {
           Inscreva-se agora
         </a>
       </div>
-    </Heroo>
+    </StyledHero>
   );
-}
+};
 
 export default Hero;
