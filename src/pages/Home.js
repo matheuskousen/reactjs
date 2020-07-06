@@ -1,9 +1,18 @@
 import React from "react";
+import Navbar from "../components/Home/Navbar";
+import Hero from "../components/Home/Hero";
+import Main from "../components/Home/Main";
 
 // import { Container } from './styles';
 
 function Home() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Main />
+    </>
+  );
 }
 
 export default Home;

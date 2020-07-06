@@ -17,12 +17,12 @@ html,body{
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-size:16px;
 }
 
 button,input{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:  'Montserrat', sans-serif;
 }
 
 a{
