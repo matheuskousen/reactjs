@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "./stye";
+import StyledNav from "./style";
 
 import logo from "../../../assets/navbarlogo.png";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <Nav>
+    <StyledNav>
       <div className="container">
         <div className="navbar-brand-logo">
           <img src={logo} alt="navbarlogo" />
@@ -18,8 +18,8 @@ function Navbar() {
           </a>
         </nav>
       </div>
-    </Nav>
+    </StyledNav>
   );
-}
+};
 
 export default Navbar;

@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 // $Second: #e52f8b;
 // $First: #31b6e9;
-const Nav = styled.header`
+const StyledNav = styled.header`
   width: 100%;
-position:absolute;
-top:0;
-left:0;
-z-index:1068;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1068;
   height: 60px;
 
-  
   .container {
     width: 90%;
     max-width: 970px;
@@ -37,21 +36,22 @@ z-index:1068;
         line-height: 60px;
         padding: 0 16px;
         display: block;
-        color:#f5f5f5e8;
+        color: #f5f5f5e8;
         .btn {
-            width:140px;
-            height:38px;
+          width: 140px;
+          height: 38px;
           background: #e52f8b;
           outline: none;
           border: none;
-          line-height:30px;
-          color:#f5f5f5e8;
-         
-          font-size:18px;
-         border-radius:2em;
+          line-height: 30px;
+          color: #f5f5f5e8;
+
+          font-size: 18px;
+          border-radius: 2em;
+        }
       }
     }
   }
 `;
 
-export default Nav;
+export default StyledNav;

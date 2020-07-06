@@ -1,12 +1,12 @@
 import React from "react";
-import { Mainn } from "./style";
+import { StyleMain } from "./style";
 
 import office from "../../../assets/office.jpg";
 import perfil from "../../../assets/perfil.jpg";
 
-function Main() {
+const Main = () => {
   return (
-    <Mainn>
+    <StyleMain>
       <div className="comtaomer">
         <h1>Cursos em destaque</h1>
         <div className="cards">
@@ -56,8 +56,8 @@ function Main() {
           </div>
         </div>
       </div>
-    </Mainn>
+    </StyleMain>
   );
-}
+};
 
 export default Main;
