@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+export const GlobalStyle = createGlobalStyle`
+
 *{
     margin:0;
     padding:0;
@@ -19,6 +19,7 @@ html,body{
 body{
     font-family:  'Montserrat', sans-serif;
     font-size:16px;
+    font-weight:400;
 }
 
 button,input{
